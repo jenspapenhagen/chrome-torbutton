@@ -1,0 +1,14 @@
+<html>
+<head>
+<script language="JavaScript" type="text/javascript">
+function ImgError(source){
+	source.src = "imagenotfound.png";
+	source.onerror = "";
+	return true;
+}
+</script>
+</head>
+<body>
+<div><img src="https://jquery.org/resources/members/famous.png" border="0" height="100" alt="image" onerror="ImgError(this)" /></div>
+</body>
+</html>
