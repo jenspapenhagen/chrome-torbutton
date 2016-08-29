@@ -1,12 +1,19 @@
 <html>
 <head>
-  <title>Orktranslater Options</title>
+  <title>Tor Button Options</title>
+<script language="JavaScript" type="text/javascript">
+function ImgError(source){
+	source.src = "imagenotfound.png";
+	source.onerror = "";
+	return true;
+}
+</script>
 </head>
 <body>
- <p>
-	 <label for="excluded">Exclude the following URLs (comma-separated): </label>
-	 <br><input type="text" id="excluded" name="excluded" />
- </p>
-  <script src="options.js"></script>
+<div>
+Connect to TOR is:<br>
+<img src="https://jquery.org/resources/members/famous.png" border="0" height="100" alt="image" onerror="ImgError(this)" />
+</div>
+
 </body>
 </html>
